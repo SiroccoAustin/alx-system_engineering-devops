@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((4#$DECIMAL))
+echo $((8#$DECIMAL))
