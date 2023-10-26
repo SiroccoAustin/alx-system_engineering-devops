@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # list files
-
+#  second comment
 files=$(ls)
 
 for file in $files; do
