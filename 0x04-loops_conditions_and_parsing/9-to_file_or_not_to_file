@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 # bash script that checks if a file exists
-# also checks if the file is empty
-# or fi the file is a regular file
 
 if [ -e "School" ];
 then
