@@ -2,7 +2,6 @@
 # list files
 #  second comment
 
-files=$(ls)
-for file in $files; do
-	echo "$file" | cut -d '-' -f2
+for indir in *; do
+	echo "${indir#*-}"
 done
