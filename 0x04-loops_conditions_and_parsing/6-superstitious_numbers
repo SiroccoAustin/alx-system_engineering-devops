@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# prints superstitious numbers
+
+iter=1
+
+while [ $iter -le 20 ]; do
+	echo "$iter"
+	case $iter in
+		"4")
+		echo "bad luck from China";;
+		"9")
+		echo "bad luck from Japan";;
+		"17")
+		echo "bad luck from Italy";;
+	esac
+	iter=$((iter + 1))
+done
