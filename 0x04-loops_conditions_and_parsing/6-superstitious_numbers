@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # prints superstitious numbers
 
 iter=1

@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # bash script for fizz buzz
 
 for i in {1..100}; do

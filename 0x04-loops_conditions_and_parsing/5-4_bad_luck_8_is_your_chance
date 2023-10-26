@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # prints bad luck numbers
 
 iter=1
