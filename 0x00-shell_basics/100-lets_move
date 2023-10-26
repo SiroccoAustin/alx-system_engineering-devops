@@ -1,2 +1,0 @@
-#!/bin/bash
-find /alx-system_engineering-devops/0x00-shell_basics /*[A-Z] * -maxdepth 1 type f exec mv {} /tmp/u \;
