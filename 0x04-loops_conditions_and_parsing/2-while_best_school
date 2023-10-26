@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # prints best school ten times
 
 count=1
