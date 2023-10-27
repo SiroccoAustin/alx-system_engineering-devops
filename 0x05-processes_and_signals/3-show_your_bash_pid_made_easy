@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#print working process followed by bash
+pgrep bash -l
