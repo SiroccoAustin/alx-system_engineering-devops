@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
-# prints best school ten times
-
+#prints best school ten times
 iter=0
-
 until [ $iter -ge 10 ]; do
 	echo "Best School"
-	iter=$((iter + 1))
+	(( iter++ ))
 done
