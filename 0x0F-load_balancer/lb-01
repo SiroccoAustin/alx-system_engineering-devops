@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# connect to a remote server
+
+ssh ubuntu@3.94.181.31 -i ~/.ssh/school
