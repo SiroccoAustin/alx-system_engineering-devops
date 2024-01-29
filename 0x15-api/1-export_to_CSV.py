@@ -6,7 +6,7 @@ import requests
 import sys
 
 if __name__ == "__main__":
-    url = "http://jsonplaceholder.typicode.com/users/"
+    url = "http://jsonplaceholder.typicode.com/"
     user_id = sys.argv[1]
     user = requests.get(url + "users/{}".format(user_id)).json()
     username = user.get("username")
