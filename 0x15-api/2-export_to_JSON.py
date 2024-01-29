@@ -18,5 +18,5 @@ if __name__ == "__main__":
         for todo in todos:
             my_dict = {"task": todo.get("title"), "completed": todo.get("completed"), "username": todo.get("username")}
             my_list.append(my_dict)
-        user_info = {userid: my_list}
+        user_info = {usr_id: my_list}
         json.dump(user_info, data)
