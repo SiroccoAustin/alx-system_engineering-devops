@@ -14,7 +14,7 @@ if __name__ == "__main__":
     todos = requests.get(url + "todos", params=params).json()
 
     with open("{}.json".format(user_id), "w") as data:
-        my_list []
+        my_list = []
         for todo in todos:
             my_dict = {"task": todo.get("title"), "completed": todo.get("completed"), "username": todo.get("username")}
             my_list.append(my_dict)
